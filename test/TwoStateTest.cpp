@@ -13,7 +13,7 @@
 
 using namespace TWOSTATE;
 
-TEST_CASE("Twostate capacity constructor test.")
+TEST_CASE("TwoState capacity constructor test.")
 {
 	const int NUM_TEST_VALUES = 10;
 
@@ -29,3 +29,5 @@ TEST_CASE("Twostate capacity constructor test.")
 
 	CHECK(t.Capacity == NUM_TEST_VALUES);
 }
+
+TEST_CASE("TwoState ")
